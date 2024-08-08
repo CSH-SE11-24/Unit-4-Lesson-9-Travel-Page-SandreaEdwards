@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Sixtyfour&display=swap" rel="stylesheet">
+  <!-- Link Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+<!--navbar-->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="https://wikitravel.org/en/New_York_City">See Queens</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+ <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="https://en.wikipedia.org/wiki/History_of_New_York_City">The History</a>
+ </li>
+<li class="nav-item dropdown">
+   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  The Boroughs
+     </a>
+ <ul class="dropdown-menu bg-dark">
+   <li><a class="dropdown-item" href="manhattan.html">Manhattan</a></li>
+  <li><a class="dropdown-item" href="bronx.html">The Bronx</a></li>
+  <li><a class="dropdown-item" href="brooklyn.html">Brooklyn</a></li>
+<li>
+<a class="dropdown-item" href="queens.html">Queens</a></li>
+ <li><a class="dropdown-item" href="statenisland.html">Staten Island</a></li>
+  </ul>
+ </li>
+</ul>
+  <form class="d-flex" role="search">
+ <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+ <button class="btn btn-outline-success" type="submit">Search</button>
+       </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Rockaway Beach:  
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> Queens is home to Rockaway Beach, one of the city's most popular beaches. It offers a long stretch of sand along the Atlantic Ocean, attracting both locals and visitors.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      Jackson Heights:        
+    </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> This neighborhood is known for its multicultural atmosphere, with a vibrant immigrant community. It offers a wide array of ethnic restaurants, shops, and cultural festivals.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Astoria:   
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Known for its diverse cultural scene, Astoria is a neighborhood in Queens with a rich history. It is home to a variety of restaurants, cafes, and cultural institutions, including the Museum of the Moving Image.</div>
+      </div>
+    </div>
+  </div>
+
+   <div class="card" style="width: 18rem;">
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="q.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="q2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="q3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+     <div class="card-body">
+  <h5 class="card-title">Queens</h5>
+    <p class="card-text">Queens has a distinct character shaped by its diverse population and neighborhoods. It has become a melting pot of cultures, contributing to its vibrant atmosphere and making it an appealing destination for those seeking a taste of the world within one borough.</p>
+     <a href="index.html" class="btn btn-primary">More Info</a>
+     </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!-- Link Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
